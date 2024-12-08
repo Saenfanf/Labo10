@@ -1,0 +1,29 @@
+/* socials.css */
+
+/* Socials Section */
+.socials {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.socials-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.socials-list a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.socials-list a:hover {
+    color: #f0f0f0;
+    transform: scale(1.1);
+}

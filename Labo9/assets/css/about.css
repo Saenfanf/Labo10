@@ -1,0 +1,35 @@
+/* about.css */
+
+/* About Me Section */
+.about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+    flex-wrap: wrap;
+}
+
+.about-box {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    margin: 20px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+}
+
+/* Fade-in animation for About Me section */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
